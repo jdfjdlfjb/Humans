@@ -19,7 +19,7 @@ https://humans.ai/
 # CPU 4/ 	RAM 8GB/ 150GB
 
 ## Ручна установка
-Підготовка сервера
+### Підготовка сервера
 ```
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu gcc git jq chrony liblz4-tool -y
@@ -63,7 +63,7 @@ humansd keys add <walletname>
 humansd keys add <walletname> --recover
 ```
 
-Скачати Genesis
+## Скачати Genesis
 ```
 wget https://snapshots.polkachu.com/testnet-genesis/humans/genesis.json -O $HOME/.humans/config/genesis.json
 ```
